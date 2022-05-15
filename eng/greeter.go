@@ -5,7 +5,7 @@ import "fmt"
 type greeting string
 
 func (g greeting) Greet() {
-	fmt.Println("Hello Universe")
+	fmt.Println("Hello Universe XX")
 }
 
 // exported

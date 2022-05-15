@@ -19,13 +19,13 @@ func main() {
 	var mod string
 	switch lang {
 	case "english":
-		mod = "./eng/eng.so"
+		mod = "./bin/eng/eng.so"
 	case "chinese":
-		mod = "./chi/chi.so"
- 	case "swedish":
-	        mod = "./swe/swe.so"
+		mod = "./bin/chi/chi.so"
+	case "swedish":
+		mod = "./bin/swe/swe.so"
 	default:
-		fmt.Println("don't speak that language")
+		fmt.Println("didn't find the language")
 		os.Exit(1)
 	}
 
